@@ -88,7 +88,20 @@
       "technologies": "Spring Boot, Angular, Firebase",
       "description": "Conception d’une application de chat en temps réel permettant aux utilisateurs d’échanger instantanément des messages. Le backend, construit avec Spring Boot, assure la gestion sécurisée des utilisateurs et le stockage des messages. Le frontend, développé en Angular, propose une interface responsive intégrant des salons de discussion et des notifications. Firebase garantit la synchronisation instantanée et la diffusion des messages, offrant une expérience fluide et réactive.",
       "github": "https://github.com/SALimanaim18/ChatApp"
-    }
+    },
+    {
+  "name": "JenkLog — Plateforme intelligente de supervision CI/CD",
+  "technologies": "Spring Boot, React, Kafka, Jenkins API, PostgreSQL, Docker, Flask/FastAPI, Machine Learning",
+  "description": "Développement d’une plateforme basée sur une architecture à microservices permettant de collecter et d’analyser en temps réel les logs Jenkins. Le système exploite Kafka pour le flux de logs, Flask/FastAPI pour la détection d’erreurs via des modèles de machine learning, et React pour un tableau de bord interactif intégrant alertes et statistiques. Ce projet vise à automatiser la surveillance des pipelines CI/CD en détectant précocement les anomalies et en proposant des corrections intelligentes grâce à la modélisation prédictive.",
+  "github": "https://github.com/SALimanaim18/"
+},
+{
+  "name": "Programme Unix à Commandes Personnalisées",
+  "technologies": "C, Bash, Linux",
+  "description": "Conception d’un programme inspiré d’Unix proposant plusieurs commandes personnalisées pour l’automatisation du système et la gestion des processus. L’outil améliore les commandes Unix classiques en ajoutant des fonctionnalités telles que des sorties colorées, des menus interactifs et des statistiques avancées sur les processus. Ce projet a été conçu pour accroître la productivité des développeurs tout en conservant une compatibilité totale avec le shell Unix.",
+  "github": "https://github.com/SALimanaim18/"
+}
+
   ]
 }
 ,

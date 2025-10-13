@@ -8,21 +8,23 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import ProjectsPage from './pages/projects-page';
 import ScrollToTop from "./components/ScrollToTop";
-
+import { ThemeProvider } from './context/ThemeContext';
 function App() {
   return (
-   <HashRouter>
-  <ScrollToTop />
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/projects-page" element={<ProjectsPage />} />
-         <Route path="/contact" element={<Contact />} />
-      </Routes>
-   </HashRouter>
+    <ThemeProvider>
+      <HashRouter>
+        <ScrollToTop />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects-page" element={<ProjectsPage />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </HashRouter>
+    </ThemeProvider>
   );
 }
 

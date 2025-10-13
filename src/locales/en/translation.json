@@ -2,25 +2,28 @@
   "navbar": {
     "home": "Home",
     "about": "About",
-    "skills": "skills",
+    "skills": "Skills",
     "projects": "Projects",
     "contact": "Contact"
   },
   "home": {
     "greeting": "Welcome to my portfolio",
-"intro": "Explore a selection of my development projects, highlighting my technical skills, creativity, and problem-solving abilities. Each project demonstrates my commitment to building functional, user-friendly, and innovative applications. This portfolio showcases my development expertise, attention to detail, and passion for delivering high-quality solutions that meet user needs.",    "cta_projects": "See Projects",
+    "intro": "Explore a selection of my development projects, highlighting my technical skills, creativity, and problem-solving abilities. Each project demonstrates my commitment to building functional, user-friendly, and innovative applications. This portfolio showcases my development expertise, attention to detail, and passion for delivering high-quality solutions that meet user needs.",
+    "cta_projects": "See Projects",
     "cta_contact": "Contact Me"
   },
   "about": {
     "title": "About Me",
-    "description": "Currently in my 5th year of Computer Science and Network Engineering at EMSI Casablanca, and in the process of preparing my engineering degree, I am a motivated and detail-oriented, with hands-on experience building full-stack applications, designing relational databases, and solving complex problems. I am also currently developing my skills in AI and DevOps. I enjoy learning new technologies and working in teams. My goal is to contribute to impactful projects while continuously developing my technical and professional skills.",       "quickFactsTitle": "Quick Facts",
+    "description": "Currently in my 5th year of Computer Science and Network Engineering at EMSI Casablanca, and in the process of preparing my engineering degree, I am a motivated and detail-oriented engineer with hands-on experience building full-stack applications, designing relational databases, and solving complex problems. I am also currently developing my skills in AI and DevOps. I enjoy learning new technologies and working in teams. My goal is to contribute to impactful projects while continuously developing my technical and professional skills.",
+    "quickFactsTitle": "Quick Facts",
     "quickFacts": {
       "school": "EMSI Casablanca",
       "currentYear": "5th year - Computer Science & Network Engineering",
       "diploma": "Full Stack Development Diploma - ISGI Center (2021-2023)",
       "baccalaureate": "Scientific Baccalaureate - Highest Honors (2021)"
-    }},
-    "skills": {
+    }
+  },
+  "skills": {
     "title": "Skills",
     "programmingLanguages": { "title": "Programming Languages" },
     "frameworks": { "title": "Frameworks & Technologies" },
@@ -29,69 +32,80 @@
     "modeling": { "title": "Modeling & Project Management" },
     "os": { "title": "Operating Systems" }
   },
-    
-"project": {
-  "title": "Projects",
-  "description": "I have designed and developed multiple web and mobile applications, demonstrating strong expertise in front-end frameworks, back-end architectures, and database management. My work involves building responsive and user-friendly interfaces, implementing efficient server-side logic, and ensuring data integrity and security. Through these projects, I have gained extensive experience in full-stack development, API integration, and deploying applications in real-world environments, consistently delivering high-quality, maintainable, and scalable solutions.",
-  "cta": "See more"
-},
-"projects": {
-  "title": "Projects",
-  "technologies": "Technologies",
-  "list": [
-    {
-      "name": "Blood Transfusion Web Application",
-      "technologies": "React, Spring Boot, Thymeleaf, Oracle",
-      "description": "Designed and implemented a complete blood donation management platform. The front office was developed with React.js to provide a dynamic and user-friendly interface for donors and requesters. A REST API built with Spring Boot ensured secure authentication, donation requests, and data management. The back office, developed using Spring boot & Thymeleaf, provided administrators with powerful tools to manage users, monitor donation activities, and validate blood requests. The system was backed by Oracle for reliable data storage and consistency.",
-      "github": "https://github.com/SALimanaim18/BloodConnectApp",
-      "mediaType": "video",
-      "mediaUrl": "videos/BloodConnect.mp4"
-    },
-    {
-      "name": "Mobile Absence Tracking Application",
-      "technologies": "Java",
-      "description": "Developed a mobile application to help educational institutions track student absences efficiently. The application allowed teachers to mark attendance digitally, reducing paperwork and errors. It provided real-time tracking of student presence, generated reports for administrators, and supported secure login features. This project significantly streamlined the attendance process, making it faster and more reliable.",
-      "github": "https://github.com/SALimanaim18/EmsiSmartPresence",
-      "mediaType": "video",
-      "mediaUrl": "videos/EmsiSmartPresence.mp4"
-    },
-    {
-      "name": "Car Brokerage Website",
-      "technologies": "Django, Python, HTML/CSS, JavaScript",
-      "description": "Built a secure online platform to connect car buyers and sellers. The system included user registration, authentication, and profile management. Sellers could list vehicles with images and details, while buyers could search and filter based on preferences. The backend was powered by Django, ensuring robust database interactions and secure transactions. The platform was optimized for usability and scalability, offering a seamless browsing and negotiation experience.",
-      "github": "https://github.com/SALimanaim18/CarApp",
-      "mediaType": "video",
-      "mediaUrl": "videos/Cardealer.mp4"
-    },
-    {
-      "name": "Inventory Management Web Application",
-      "technologies": "PHP, MySQL, JavaScript",
-      "description": "Designed and deployed a comprehensive inventory management solution for small businesses. The system enabled users to manage stock, track orders, and monitor sales in real time. Features included supplier and client management, automated low-stock alerts, and customizable reports. The backend, built with PHP and MySQL, ensured secure and efficient data handling, while the JavaScript-enhanced front-end provided an intuitive user experience.",
-      "github": "https://github.com/SALimanaim18/",
-      "mediaType": "video",
-      "mediaUrl": "videos/StockSens.mp4"
-    },
-    {
-      "name": "Mini Bank Account Management Application",
-      "technologies": "C++",
-      "description": "Developed a console-based banking system to manage customer accounts with essential financial operations. The system supported deposits, withdrawals, balance inquiries, and interest calculations. It included error handling to prevent invalid transactions and ensured data consistency across operations. This project demonstrated strong problem-solving and algorithmic skills, as well as mastery of object-oriented programming concepts in C++.",
-      "github": "https://github.com/SALimanaim18/"
-    },
-    {
-      "name": "Chat Application",
-      "technologies": "Spring Boot, Angular, Firebase",
-      "description": "Created a real-time chat application enabling users to send and receive instant messages. The backend was developed with Spring Boot, providing secure APIs for user management and message storage. The frontend, built with Angular, offered a responsive interface with chat rooms and notifications. Firebase was used for real-time synchronization and message broadcasting, ensuring smooth and immediate communication between users.",
-      "github": "https://github.com/SALimanaim18/ChatApp"
-    }
-  ]
-}
-,
-"contact": {
-  "title": "Contact Me",
-  "phone": "Phone",
-  "email": "Email",
-  "linkedin": "LinkedIn",
-  "github": "GitHub"
-}
-
+  "project": {
+    "title": "Projects",
+    "description": "I have designed and developed multiple web and mobile applications, demonstrating strong expertise in front-end frameworks, back-end architectures, and database management. My work involves building responsive and user-friendly interfaces, implementing efficient server-side logic, and ensuring data integrity and security. Through these projects, I have gained extensive experience in full-stack development, API integration, and deploying applications in real-world environments, consistently delivering high-quality, maintainable, and scalable solutions.",
+    "cta": "See more"
+  },
+  "projects": {
+    "title": "Projects",
+    "technologies": "Technologies",
+    "list": [
+      
+      {
+        "name": "Blood Transfusion Web Application",
+        "technologies": "React, Spring Boot, Thymeleaf, Oracle",
+        "description": "Designed and implemented a complete blood donation management platform. The front office was developed with React.js to provide a dynamic and user-friendly interface for donors and requesters. A REST API built with Spring Boot ensured secure authentication, donation requests, and data management. The back office, developed using Spring Boot & Thymeleaf, provided administrators with powerful tools to manage users, monitor donation activities, and validate blood requests. The system was backed by Oracle for reliable data storage and consistency.",
+        "github": "https://github.com/SALimanaim18/BloodConnectApp",
+        "mediaType": "video",
+        "mediaUrl": "videos/BloodConnect.mp4"
+      },
+      {
+        "name": "Mobile Absence Tracking Application",
+        "technologies": "Java",
+        "description": "Developed a mobile application to help educational institutions track student absences efficiently. The application allowed teachers to mark attendance digitally, reducing paperwork and errors. It provided real-time tracking of student presence, generated reports for administrators, and supported secure login features. This project significantly streamlined the attendance process, making it faster and more reliable.",
+        "github": "https://github.com/SALimanaim18/EmsiSmartPresence",
+        "mediaType": "video",
+        "mediaUrl": "videos/EmsiSmartPresence.mp4"
+      },
+      {
+        "name": "Car Brokerage Website",
+        "technologies": "Django, Python, HTML/CSS, JavaScript",
+        "description": "Built a secure online platform to connect car buyers and sellers. The system included user registration, authentication, and profile management. Sellers could list vehicles with images and details, while buyers could search and filter based on preferences. The backend was powered by Django, ensuring robust database interactions and secure transactions. The platform was optimized for usability and scalability, offering a seamless browsing and negotiation experience.",
+        "github": "https://github.com/SALimanaim18/CarApp",
+        "mediaType": "video",
+        "mediaUrl": "videos/Cardealer.mp4"
+      },
+      {
+        "name": "Inventory Management Web Application",
+        "technologies": "PHP, MySQL, JavaScript",
+        "description": "Designed and deployed a comprehensive inventory management solution for small businesses. The system enabled users to manage stock, track orders, and monitor sales in real time. Features included supplier and client management, automated low-stock alerts, and customizable reports. The backend, built with PHP and MySQL, ensured secure and efficient data handling, while the JavaScript-enhanced front-end provided an intuitive user experience.",
+        "github": "https://github.com/SALimanaim18/",
+        "mediaType": "video",
+        "mediaUrl": "videos/StockSens.mp4"
+      },
+      {
+        "name": "Mini Bank Account Management Application",
+        "technologies": "C++",
+        "description": "Developed a console-based banking system to manage customer accounts with essential financial operations. The system supported deposits, withdrawals, balance inquiries, and interest calculations. It included error handling to prevent invalid transactions and ensured data consistency across operations. This project demonstrated strong problem-solving and algorithmic skills, as well as mastery of object-oriented programming concepts in C++.",
+        "github": "https://github.com/SALimanaim18/"
+      },
+      {
+        "name": "Chat Application",
+        "technologies": "Spring Boot, Angular, Firebase",
+        "description": "Created a real-time chat application enabling users to send and receive instant messages. The backend was developed with Spring Boot, providing secure APIs for user management and message storage. The frontend, built with Angular, offered a responsive interface with chat rooms and notifications. Firebase was used for real-time synchronization and message broadcasting, ensuring smooth and immediate communication between users.",
+        "github": "https://github.com/SALimanaim18/ChatApp"
+      },
+      {
+        "name": "JenkLog — Intelligent CI/CD Monitoring Platform",
+        "technologies": "Spring Boot, React, Kafka, Jenkins API, PostgreSQL, Docker, Flask/FastAPI, Machine Learning",
+        "description": "Developed a microservices-based platform that collects and analyzes Jenkins logs in real-time. The system leverages Kafka for log streaming, Flask/FastAPI for ML-based error detection, and React for an interactive dashboard with alerts and analytics. This project aims to automate CI/CD monitoring by detecting pipeline issues early and suggesting intelligent fixes through predictive modeling.",
+        "github": "https://github.com/SALimanaim18/"
+       
+      },
+      {
+        "name": "Unix Custom Commands Program",
+        "technologies": "C, Bash, Linux",
+        "description": "Developed a Unix-style program offering multiple custom terminal commands for system automation and process management. The tool enhances classic Unix commands with additional features such as colorized outputs, interactive menus, and extended process statistics. Designed to improve developer productivity while maintaining full shell compatibility.",
+        "github": "https://github.com/SALimanaim18/"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Me",
+    "phone": "Phone",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  }
 }

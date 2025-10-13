@@ -51,7 +51,7 @@
       "description": "Conception et développement d’une plateforme complète de gestion de dons de sang. Le front office, réalisé avec React.js, offre une interface interactive et intuitive pour les donneurs et les demandeurs. Une API REST développée en Spring Boot assure l’authentification sécurisée, la gestion des utilisateurs et le traitement des demandes de don. Le back office, conçu avec Spring boot & Thymeleaf, fournit aux administrateurs des outils performants pour superviser les activités, gérer les données et valider les requêtes. La base de données Oracle garantit la fiabilité et la cohérence des informations.",
       "github": "https://github.com/SALimanaim18/BloodConnectApp",
       "mediaType": "video",
-      "mediaUrl": "videos/BloodConnect.mp4"
+      "mediaUrl": "BloodConnect.mp4"
     },
     {
       "name": "Application Mobile de Suivi des Absences",
@@ -59,7 +59,7 @@
       "description": "Développement d’une application mobile destinée aux établissements scolaires pour le suivi des absences des étudiants. L’application permet aux enseignants de marquer les présences de manière numérique, réduisant ainsi les erreurs et la charge administrative. Elle offre un suivi en temps réel des absences, la génération de rapports pour les responsables et un système d’authentification sécurisé. Ce projet a permis de moderniser et d’automatiser le processus de suivi académique.",
       "github": "https://github.com/SALimanaim18/EmsiSmartPresence",
       "mediaType": "video",
-      "mediaUrl": "videos/EmsiSmartPresence.mp4"
+      "mediaUrl": "EmsiSmartPresence.mp4"
     },
     {
       "name": "Site Web de Courtage Automobile",
@@ -67,7 +67,7 @@
       "description": "Création d’une plateforme sécurisée de mise en relation entre acheteurs et vendeurs de véhicules. Les fonctionnalités incluent l’inscription et l’authentification des utilisateurs, la gestion des profils, la publication d’annonces avec images et détails, ainsi que la recherche avancée et le filtrage pour les acheteurs. Le backend, développé en Django, garantit la sécurité des transactions et la robustesse du système, tandis que l’interface utilisateur offre une expérience fluide et intuitive.",
       "github": "https://github.com/SALimanaim18/CarApp",
       "mediaType": "video",
-      "mediaUrl": "videos/Cardealer.mp4"
+      "mediaUrl": "Cardealer.mp4"
     },
     {
       "name": "Application Web de Gestion de Stock",
@@ -75,7 +75,7 @@
       "description": "Conception et déploiement d’un système complet de gestion des stocks pour les petites entreprises. L’application permet de gérer les produits, de suivre les ventes et de contrôler les commandes en temps réel. Parmi les fonctionnalités principales : la gestion des fournisseurs et clients, les alertes automatiques en cas de rupture de stock, et la génération de rapports personnalisés. Le backend en PHP/MySQL assure une gestion sécurisée des données et le front-end enrichi en JavaScript garantit une interface ergonomique.",
       "github": "https://github.com/SALimanaim18/",
       "mediaType": "video",
-      "mediaUrl": "videos/StockSens.mp4"
+      "mediaUrl": "StockSens.mp4"
     },
     {
       "name": "Application de Gestion de Comptes Bancaires",

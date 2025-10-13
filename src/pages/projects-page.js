@@ -267,11 +267,11 @@ export default function ProjectsPage() {
                   </div>
                 </>
               ) : selectedProject.mediaType === "video" && selectedProject.mediaUrl ? (
-                <video
-                  src={process.env.PUBLIC_URL + '/' + selectedProject.mediaUrl}
-                  controls
-                  className="rounded-xl max-w-full max-h-[500px] w-auto h-auto"
-                >
+             <video
+  src={`${process.env.PUBLIC_URL}/videos/${selectedProject.mediaUrl}`}
+  controls
+  className="rounded-xl max-w-full max-h-[500px] w-auto h-auto"
+>
                   Your browser does not support video playback.
                 </video>
               ) : (

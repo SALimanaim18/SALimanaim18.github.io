@@ -48,7 +48,7 @@
         "description": "Designed and implemented a complete blood donation management platform. The front office was developed with React.js to provide a dynamic and user-friendly interface for donors and requesters. A REST API built with Spring Boot ensured secure authentication, donation requests, and data management. The back office, developed using Spring Boot & Thymeleaf, provided administrators with powerful tools to manage users, monitor donation activities, and validate blood requests. The system was backed by Oracle for reliable data storage and consistency.",
         "github": "https://github.com/SALimanaim18/BloodConnectApp",
         "mediaType": "video",
-        "mediaUrl": "videos/BloodConnect.mp4"
+        "mediaUrl": "BloodConnect.mp4"
       },
       {
         "name": "Mobile Absence Tracking Application",
@@ -56,7 +56,7 @@
         "description": "Developed a mobile application to help educational institutions track student absences efficiently. The application allowed teachers to mark attendance digitally, reducing paperwork and errors. It provided real-time tracking of student presence, generated reports for administrators, and supported secure login features. This project significantly streamlined the attendance process, making it faster and more reliable.",
         "github": "https://github.com/SALimanaim18/EmsiSmartPresence",
         "mediaType": "video",
-        "mediaUrl": "videos/EmsiSmartPresence.mp4"
+        "mediaUrl": "EmsiSmartPresence.mp4"
       },
       {
         "name": "Car Brokerage Website",
@@ -64,7 +64,7 @@
         "description": "Built a secure online platform to connect car buyers and sellers. The system included user registration, authentication, and profile management. Sellers could list vehicles with images and details, while buyers could search and filter based on preferences. The backend was powered by Django, ensuring robust database interactions and secure transactions. The platform was optimized for usability and scalability, offering a seamless browsing and negotiation experience.",
         "github": "https://github.com/SALimanaim18/CarApp",
         "mediaType": "video",
-        "mediaUrl": "videos/Cardealer.mp4"
+        "mediaUrl": "Cardealer.mp4"
       },
       {
         "name": "Inventory Management Web Application",
@@ -72,7 +72,7 @@
         "description": "Designed and deployed a comprehensive inventory management solution for small businesses. The system enabled users to manage stock, track orders, and monitor sales in real time. Features included supplier and client management, automated low-stock alerts, and customizable reports. The backend, built with PHP and MySQL, ensured secure and efficient data handling, while the JavaScript-enhanced front-end provided an intuitive user experience.",
         "github": "https://github.com/SALimanaim18/",
         "mediaType": "video",
-        "mediaUrl": "videos/StockSens.mp4"
+        "mediaUrl": "StockSens.mp4"
       },
       {
         "name": "Mini Bank Account Management Application",

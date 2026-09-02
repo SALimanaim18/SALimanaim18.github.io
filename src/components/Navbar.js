@@ -16,6 +16,7 @@ export default function Navbar() {
     { label: 'navbar.about', href: '/#about', icon: Users },
     { label: 'navbar.skills', href: '/#skills', icon: Code2 },
     { label: 'navbar.projects', href: '/projects-page', icon: Briefcase },
+    { label: 'navbar.certifications', href: '/certifications', icon: Briefcase },
     { label: 'navbar.contact', href: '/#contact', icon: Mail },
   ];
 

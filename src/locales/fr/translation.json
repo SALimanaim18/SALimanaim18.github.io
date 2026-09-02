@@ -4,13 +4,102 @@
     "about": "À propos",
     "skills": "Compétences",
     "projects": "Projets",
-    "contact": "Contact"
+    "contact": "Contact",
+    "certifications": "Certifications"
   },
   "home": {
     "greeting": "Bienvenue sur mon portfolio",
     "intro": "Vous y découvrirez une sélection de mes projets de développement, illustrant mes compétences techniques, ma créativité et ma capacité à résoudre des problèmes. Chaque réalisation reflète mon engagement à créer des applications fonctionnelles, ergonomiques et innovantes. Ce portfolio met en avant mon expertise en développement, ma rigueur dans le travail et ma passion pour concevoir des solutions de qualité adaptées aux besoins des utilisateurs.",
     "cta_projects": "Voir les projets",
-    "cta_contact": "Me contacter"
+       "cta_download_cv": "Télécharger CV",
+    "cta_contact": "Me contacter",
+     "certificationsTitle": "Certifications",
+  "certificationsDescription": "Voici une sélection essentielle de mes certifications qui reflètent ma motivation, mon sérieux et mon engagement constant à apprendre.",
+  "viewMoreCertifications": "Voir plus"
+  },"certifications": {
+    "list": [
+        {
+        "title": "Ethical Hacker ",
+        "image": "certifications/Certif_Ethical_Hacker.png"
+      },{
+        "title": "Oracle Cloud Infrastructure Devops Professional ",
+        "image": "certifications/Certif_OCI_Devops.png"
+      },
+     
+      {
+        "title": "Introduction to Java and Object-Oriented Programming",
+        "image": "certifications/Certif_JAVA.png"
+      },
+         {
+        "title": "Programming for Everybody (Getting Started with Python)",
+        "image": "certifications/Certif_Python.png"
+      },
+      {
+        "title": "React Basics",
+        "image": "certifications/Certif_React.png"
+      },
+      {
+        "title": "Oracle Fusion AI Agent",
+        "image": "certifications/certif_IA.png"
+      },
+    {
+        "title": "The Unix Workbench",
+        "image": "certifications/certif_Unix.png"
+      },
+        {
+        "title": "Introduction de la programmation orientée objet en C++",
+        "image": "certifications/certif_CPP.png"
+      },
+           {
+        "title": "Software Engineering: Software Design and Project Management",
+        "image": "certifications/Certif_Conception.png"
+      },
+       {
+        "title": "Network Defense",
+        "image": "certifications/Certif_Network_Defense.png"
+      },
+   
+       {
+        "title": "Virtual Network in Azure",
+        "image": "certifications/Certif_Virtualisation.png"
+      },
+     
+      {
+        "title": "Introduction to containers , Docker and Kubernetes & OpenShift",
+        "image": "certifications/Certif_Devops.png"
+      },
+ 
+        {
+        "title": "Oracle Cloud Infrastructure AI ",
+        "image": "certifications/certif_IA_Foundation.png"
+      },
+      {
+        "title": "Successful Presentation",
+        "image": "certifications/Certif_Anglais.png"
+      },
+      {
+        "title": "Impact Measurement & Management for the SDGs",
+        "image": "certifications/Certif_Impact_Mesurement.png"
+      },
+      
+      {
+        "title": "Introduction to CSS3",
+        "image": "certifications/CertifCSS.png"
+      },
+    
+      {
+        "title": "Introduction to HTML5",
+        "image": "certifications/certif_HTML.png"
+      },  {
+        "title": "Villes africaines: Environnement et enjeux de développement durable",
+        "image": "certifications/Certif_Ville_Africaine.png"
+      },
+      {
+        "title": "La recherche documentaire",
+        "image": "certifications/Certif_Recherche_Doc.png"
+      }
+     
+    ]
   },
   "about": {
     "title": "À propos de moi",

@@ -57,43 +57,48 @@ export default function Projects() {
 
       <div className="max-w-4xl w-full relative z-10">
         {/* Header */}
-        <div className={`text-center mb-12 transition-all duration-700 ${
-          isVisible ? 'animate-fade-in' : 'opacity-0 translate-y-8'
-        }`}>
-          <div className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full backdrop-blur-sm border mb-4 transition-all duration-300 ${
-            isDark 
-              ? 'bg-purple-500/20 border-purple-400/50' 
-              : 'bg-purple-100/80 border-purple-300'
-          }`}>
-            <Sparkles className={`w-3 h-3 transition-colors duration-300 ${
-              isDark ? 'text-purple-300' : 'text-purple-600'
-            }`} />
-            <span className={`text-xs font-medium transition-colors duration-300 ${
-              isDark ? 'text-purple-200' : 'text-purple-700'
-            }`}>
-              Featured Works
-            </span>
-          </div>
+        {/* ===== HEADER ===== */}
+<div className={`text-center mb-12 transition-all duration-700 ${
+  isVisible ? 'animate-fade-in' : 'opacity-0 translate-y-8'
+}`}>
 
-          <h2 className={`text-4xl md:text-5xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r ${
-            isDark 
-              ? 'from-sky-300 via-purple-300 to-pink-300' 
-              : 'from-indigo-600 via-purple-600 to-pink-600'
-          }`}>
-            {t('projects.title')}
-          </h2>
-          <div className={`w-24 h-1 bg-gradient-to-r rounded-full mx-auto mb-6 ${
-            isDark 
-              ? 'from-sky-400 via-purple-400 to-pink-400' 
-              : 'from-indigo-500 via-purple-500 to-pink-500'
-          }`} />
+  {/* Badge comme Contact */}
+  <div className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full backdrop-blur-sm border mb-4 transition-all duration-300 ${
+    isDark 
+      ? 'bg-purple-500/20 border-purple-400/50' 
+      : 'bg-purple-100/80 border-purple-300'
+  }`}>
+    <Sparkles className={`w-3 h-3 ${isDark ? 'text-purple-300' : 'text-purple-600'}`} />
+    <span className={`text-xs font-medium ${isDark ? 'text-purple-200' : 'text-purple-700'}`}>
+      Featured Works
+    </span>
+  </div>
 
-          <p className={`text-base leading-relaxed font-light max-w-2xl mx-auto transition-colors duration-300 ${
-            isDark ? 'text-slate-300' : 'text-gray-700'
-          }`}>
-            {t('project.description')}
-          </p>
-        </div>
+  {/* Titre comme Contact */}
+  <h2
+    className={`text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r ${
+      isDark ? 'from-sky-300 via-purple-300 to-pink-300' : 'from-indigo-600 via-purple-600 to-pink-600'
+    }`}
+  >
+    {t('projects.title')}
+  </h2>
+
+  {/* Trait de séparation */}
+  <div className={`w-28 h-1 bg-gradient-to-r rounded-full mx-auto mt-3 mb-6 ${
+    isDark 
+      ? 'from-sky-400 via-purple-400 to-pink-400' 
+      : 'from-indigo-500 via-purple-500 to-pink-500'
+  }`} />
+
+  {/* Description élargie */}
+  <p
+    className={`text-base leading-relaxed font-light max-w-3xl mx-auto transition-colors duration-300 ${
+      isDark ? 'text-slate-300' : 'text-gray-700'
+    }`}
+  >
+    {t('project.description')}
+  </p>
+</div>
 
         {/* Project Showcase Cards */}
         <div className="grid md:grid-cols-3 gap-6 mb-12">

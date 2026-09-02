@@ -114,6 +114,7 @@ export default function Footer() {
             );
           })}
         </div>
+<br />
 
         {/* Footer bottom */}
         <div className={`text-center ${isVisible ? 'animate-fade-in' : 'opacity-0 translate-y-8'}`} style={{ animationDelay: '600ms' }}>

@@ -4,17 +4,106 @@
     "about": "About",
     "skills": "Skills",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "certifications": "Certifications"
   },
   "home": {
     "greeting": "Welcome to my portfolio",
     "intro": "Explore a selection of my development projects, highlighting my technical skills, creativity, and problem-solving abilities. Each project demonstrates my commitment to building functional, user-friendly, and innovative applications. This portfolio showcases my development expertise, attention to detail, and passion for delivering high-quality solutions that meet user needs.",
     "cta_projects": "See Projects",
-    "cta_contact": "Contact Me"
+       "cta_download_cv": "Download CV",
+    "cta_contact": "Contact Me",
+     "certificationsTitle": "Certifications",
+  "certificationsDescription": "Here is a selected list of my key certifications that reflect my motivation, professionalism, and continuous learning commitment.",
+  "viewMoreCertifications": "View More"
+  },"certifications": {
+    "list": [
+        {
+        "title": "Ethical Hacker ",
+        "image": "certifications/Certif_Ethical_Hacker.png"
+      },{
+        "title": "Oracle Cloud Infrastructure Devops Professional ",
+        "image": "certifications/Certif_OCI_Devops.png"
+      },
+     
+      {
+        "title": "Introduction to Java and Object-Oriented Programming",
+        "image": "certifications/Certif_JAVA.png"
+      },
+         {
+        "title": "Programming for Everybody (Getting Started with Python)",
+        "image": "certifications/Certif_Python.png"
+      },
+      {
+        "title": "React Basics",
+        "image": "certifications/Certif_React.png"
+      },
+      {
+        "title": "Oracle Fusion AI Agent",
+        "image": "certifications/certif_IA.png"
+      },
+    {
+        "title": "The Unix Workbench",
+        "image": "certifications/certif_Unix.png"
+      },
+        {
+        "title": "Introduction de la programmation orientée objet en C++",
+        "image": "certifications/certif_CPP.png"
+      },
+           {
+        "title": "Software Engineering: Software Design and Project Management",
+        "image": "certifications/Certif_Conception.png"
+      },
+       {
+        "title": "Network Defense",
+        "image": "certifications/Certif_Network_Defense.png"
+      },
+   
+       {
+        "title": "Virtual Network in Azure",
+        "image": "certifications/Certif_Virtualisation.png"
+      },
+     
+      {
+        "title": "Introduction to containers , Docker and Kubernetes & OpenShift",
+        "image": "certifications/Certif_Devops.png"
+      },
+ 
+        {
+        "title": "Oracle Cloud Infrastructure AI ",
+        "image": "certifications/certif_IA_Foundation.png"
+      },
+      {
+        "title": "Successful Presentation",
+        "image": "certifications/Certif_Anglais.png"
+      },
+      {
+        "title": "Impact Measurement & Management for the SDGs",
+        "image": "certifications/Certif_Impact_Mesurement.png"
+      },
+      
+      {
+        "title": "Introduction to CSS3",
+        "image": "certifications/CertifCSS.png"
+      },
+    
+      {
+        "title": "Introduction to HTML5",
+        "image": "certifications/certif_HTML.png"
+      },  {
+        "title": "Villes africaines: Environnement et enjeux de développement durable",
+        "image": "certifications/Certif_Ville_Africaine.png"
+      },
+      {
+        "title": "La recherche documentaire",
+        "image": "certifications/Certif_Recherche_Doc.png"
+      }
+     
+    ]
   },
   "about": {
     "title": "About Me",
-    "description": "Currently in my 5th year of Computer Science and Network Engineering at EMSI Casablanca, and in the process of preparing my engineering degree, I am a motivated and detail-oriented engineer with hands-on experience building full-stack applications, designing relational databases, and solving complex problems. I am also currently developing my skills in AI and DevOps. I enjoy learning new technologies and working in teams. My goal is to contribute to impactful projects while continuously developing my technical and professional skills.",
+    "description": "Curr in my 5th year of Computer Science and Network Engineering at EMSI Casablanca, and in the process of preparing my engineering degree, I am a motivated and detail-oriented engineer with hands-on experience building full-stack applications, designing relational databases, and solving complex problems. I am also currently developing my skills in AI and DevOps. I enjoy learning new technologies and working in teams. My goal is to contribute to impactful projects while continuously developing my technical and professional skills.",
     "quickFactsTitle": "Quick Facts",
     "quickFacts": {
       "school": "EMSI Casablanca",
@@ -39,6 +128,7 @@
   },
   "projects": {
     "title": "Projects",
+    "description":"Here are some of my key projects showcasing my skills and experience.",
     "technologies": "Technologies",
     "list": [
       

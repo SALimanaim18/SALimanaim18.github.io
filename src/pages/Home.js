@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import Contact from './Contact';
 import { Terminal, Briefcase, Mail } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
+import CertificationsPreview from './CertificationsPreview';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -185,20 +186,21 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col sm:flex-row justify-center gap-2 xs:gap-3 sm:gap-4 mb-4">
-            <Link
-              to="/projects-page"
-              className={`group px-4 xs:px-5 sm:px-6 py-2 xs:py-2.5 sm:py-3 rounded-lg bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 transform relative overflow-hidden text-xs xs:text-sm sm:text-base ${
-                isDark 
-                  ? 'hover:shadow-purple-500/50' 
-                  : 'hover:shadow-purple-500/40 from-indigo-600 to-purple-600'
-              }`}
-            >
-              <div className={`absolute inset-0 bg-gradient-to-r from-purple-700 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity`} />
-              <span className="relative flex items-center justify-center gap-1 xs:gap-2">
-                {t('home.cta_projects')}
-                <Briefcase size={12} className="xs:size-3 sm:size-4" />
-              </span>
-            </Link>
+             <a
+    href={`${process.env.PUBLIC_URL}/CV Salima_Naim.pdf`}
+    download="CV_Salima_Naim.pdf"
+    className={`group px-4 xs:px-5 sm:px-6 py-2 xs:py-2.5 sm:py-3 rounded-lg bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 transform relative overflow-hidden text-xs xs:text-sm sm:text-base ${
+      isDark 
+        ? 'hover:shadow-purple-500/50' 
+        : 'hover:shadow-purple-500/40 from-indigo-600 to-purple-600'
+    }`}
+  >
+    <div className={`absolute inset-0 bg-gradient-to-r from-purple-700 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity`} />
+    <span className="relative flex items-center justify-center gap-1 xs:gap-2">
+      {t('home.cta_download_cv')} {/* Texte traduit selon la langue */}
+      <Briefcase size={12} className="xs:size-3 sm:size-4" />
+    </span>
+  </a>
             <button
               onClick={() => {
                 const contact = document.getElementById('contact');
@@ -324,6 +326,7 @@ export default function Home() {
       <About id="about" />
       <Skills id="skills" />
       <Projects id="projects" />
+      <CertificationsPreview id="certifications" />
       <Contact id="contact" />
     </>
   );

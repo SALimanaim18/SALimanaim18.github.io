@@ -2,79 +2,212 @@ import React, { useRef, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Code2, Database, Wrench, Layout, Zap, Package } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
+import { Brain, ServerCog } from "lucide-react";
 
 export default function Skills() {
   const { t } = useTranslation();
   const { isDark } = useTheme();
   const sectionRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
-
+const mode = isDark ? "dark" : "light";
   const skillsData = [
-    {
-      category: t('skills.programmingLanguages.title'),
-      items: ['Java', 'Python', 'PHP', 'C#', 'C++', 'JavaScript (ES6)'],
-      icon: Code2,
-      color: 'sky'
-    },
-    {
-      category: t('skills.frameworks.title'),
-      backendItems: ['Spring', 'Django', 'ASP.NET', 'Symfony', 'Laravel', 'Flask'],
-      frontendItems: ['ReactJS', 'HTML', 'CSS', 'Bootstrap', 'TailwindCSS'],
-      icon: Package,
-      color: 'purple'
-    },
-    {
-      category: t('skills.databases.title'),
-      items: ['MySQL', 'SQL Server', 'Oracle (PL/SQL)', 'MongoDB (NoSQL)'],
-      icon: Database,
-      color: 'pink'
-    },
-    {
-      category: t('skills.tools.title'),
-      leftItems: ['IntelliJ IDEA', 'Android Studio', 'Visual Studio', 'VS Code'],
-      rightItems: ['Git', 'GitHub', 'GitLab', 'SonarQube'],
-      icon: Wrench,
-      color: 'cyan'
-    },
-    {
-      category: t('skills.modeling.title'),
-      items: ['UML', 'GanttProject', 'Jira', 'Agile (Scrum)'],
-      icon: Layout,
-      color: 'blue'
-    },
-    {
-      category: t('skills.os.title'),
-      items: ['Windows Server', 'Linux/Unix', 'macOS'],
-      icon: Zap,
-      color: 'rose'
-    }
-  ];
+  {
+    category: t('skills.programmingLanguages.title'),
+    items: ['Java', 'Python', 'PHP', 'C#', 'C++', 'JavaScript'],
+    icon: Code2,
+    color: 'sky'
+  },
+  {
+    category: t('skills.frameworks.title'),
+    backendItems: ['Spring Boot', 'Django', 'Symfony', 'Laravel', 'Flask', 'Node.js', 'ASP.NET'],
+    frontendItems: ['React.js', 'HTML', 'CSS', 'Bootstrap', 'TailwindCSS'],
+    icon: Package,
+    color: 'purple'
+  },
+  {
+    category: t('skills.databases.title'),
+    items: ['MySQL', 'SQL Server', 'Oracle (PL/SQL)', 'MongoDB (NoSQL)', 'PostgreSQL', 'Firebase'],
+    icon: Database,
+    color: 'pink'
+  },
+  {
+    category: t('skills.tools.title'),
+    leftItems: ['IntelliJ IDEA', 'Android Studio', 'Visual Studio', 'VS Code','Eclipse','PytCharm' ],
+    rightItems: ['Git', 'GitHub', 'GitLab'],
+    icon: Wrench,
+    color: 'cyan'
+  },
+  {
+ category: t('Intelligence Artificielle'),
+      leftItems: [
+      'Machine Learning',
+      'Deep Learning',
+      'Data mining',
+      'TensorFlow',
+      'Keras',
+      'NumPy'
+    
+    ],
+     rightItems:[  
+      'Pandas',
+      'Matplotlib',
+      'Jupyter Notebook',
+      'Google Colab',
+      'Scikit-learn'],
+    icon: Brain,
+    color: 'rose'
+  },
+  {
+    category: t("DevOps"),
+     leftItems:[
+      'Docker / Docker Compose',
+      'Kubernetes',
+      'Jenkins',
+      'GitLab CI/CD'
+    ],
+    rightItems:[ 'SonarQube',
+      'Grafana',
+      'Kibana',
+      'CI/CD Pipelines'],
+    icon: ServerCog,
+    color: 'yellow'
+  },
+  {
+    category: t('skills.modeling.title'),
+    items: ['UML', 'GanttProject', 'Jira', 'Agile (Scrum)', 'kaizen'],
+    icon: Layout,
+    color: 'blue'
+  },
+  {
+    category: t('skills.os.title'),
+    items: ['Linux/Unix', 'Windows Server'],
+    icon: Zap,
+    color: 'green'
+  }
+];
+
 
   const colorMap = {
-    sky: { 
-      dark: { bg: 'from-slate-900/50 to-slate-800/50', border: 'border-sky-400/50', icon: 'text-sky-400', hover: 'hover:border-sky-300 hover:bg-sky-500/10', shadow: 'shadow-sky-500/20' },
-      light: { bg: 'from-white/80 to-gray-100/80', border: 'border-indigo-300', icon: 'text-indigo-600', hover: 'hover:border-indigo-400 hover:bg-indigo-50/80', shadow: 'shadow-indigo-500/20' }
+     sky: {
+    light: {
+      border: "border-sky-300",
+      hover: "hover:bg-sky-100/40",
+      bg: "from-sky-50 to-white",
+      icon: "text-sky-500"
     },
-    purple: { 
-      dark: { bg: 'from-slate-900/50 to-slate-800/50', border: 'border-purple-400/50', icon: 'text-purple-400', hover: 'hover:border-purple-300 hover:bg-purple-500/10', shadow: 'shadow-purple-500/20' },
-      light: { bg: 'from-white/80 to-gray-100/80', border: 'border-purple-300', icon: 'text-purple-600', hover: 'hover:border-purple-400 hover:bg-purple-50/80', shadow: 'shadow-purple-500/20' }
-    },
-    pink: { 
-      dark: { bg: 'from-slate-900/50 to-slate-800/50', border: 'border-pink-400/50', icon: 'text-pink-400', hover: 'hover:border-pink-300 hover:bg-pink-500/10', shadow: 'shadow-pink-500/20' },
-      light: { bg: 'from-white/80 to-gray-100/80', border: 'border-pink-300', icon: 'text-pink-600', hover: 'hover:border-pink-400 hover:bg-pink-50/80', shadow: 'shadow-pink-500/20' }
-    },
-    cyan: { 
-      dark: { bg: 'from-slate-900/50 to-slate-800/50', border: 'border-cyan-400/50', icon: 'text-cyan-400', hover: 'hover:border-cyan-300 hover:bg-cyan-500/10', shadow: 'shadow-cyan-500/20' },
-      light: { bg: 'from-white/80 to-gray-100/80', border: 'border-cyan-400', icon: 'text-cyan-600', hover: 'hover:border-cyan-500 hover:bg-cyan-50/80', shadow: 'shadow-cyan-500/20' }
-    },
-    blue: { 
-      dark: { bg: 'from-slate-900/50 to-slate-800/50', border: 'border-blue-400/50', icon: 'text-blue-400', hover: 'hover:border-blue-300 hover:bg-blue-500/10', shadow: 'shadow-blue-500/20' },
-      light: { bg: 'from-white/80 to-gray-100/80', border: 'border-blue-400', icon: 'text-blue-600', hover: 'hover:border-blue-500 hover:bg-blue-50/80', shadow: 'shadow-blue-500/20' }
-    },
-    rose: { 
-      dark: { bg: 'from-slate-900/50 to-slate-800/50', border: 'border-rose-400/50', icon: 'text-rose-400', hover: 'hover:border-rose-300 hover:bg-rose-500/10', shadow: 'shadow-rose-500/20' },
-      light: { bg: 'from-white/80 to-gray-100/80', border: 'border-rose-400', icon: 'text-rose-600', hover: 'hover:border-rose-500 hover:bg-rose-50/80', shadow: 'shadow-rose-500/20' }
+    dark: {
+      border: "border-sky-700/50",
+      hover: "hover:bg-sky-800/40",
+      bg: "from-slate-900 to-slate-800",
+      icon: "text-sky-300"
     }
+  },
+
+  purple: {
+    light: {
+      border: "border-purple-300",
+      hover: "hover:bg-purple-100/40",
+      bg: "from-purple-50 to-white",
+      icon: "text-purple-500"
+    },
+    dark: {
+      border: "border-purple-700/50",
+      hover: "hover:bg-purple-800/40",
+      bg: "from-slate-900 to-slate-800",
+      icon: "text-purple-300"
+    }
+  },
+
+  pink: {
+    light: {
+      border: "border-pink-300",
+      hover: "hover:bg-pink-100/40",
+      bg: "from-pink-50 to-white",
+      icon: "text-pink-500"
+    },
+    dark: {
+      border: "border-pink-700/50",
+      hover: "hover:bg-pink-800/40",
+      bg: "from-slate-900 to-slate-800",
+      icon: "text-pink-300"
+    }
+  },
+
+  cyan: {
+    light: {
+      border: "border-cyan-300",
+      hover: "hover:bg-cyan-100/40",
+      bg: "from-cyan-50 to-white",
+      icon: "text-cyan-500"
+    },
+    dark: {
+      border: "border-cyan-700/50",
+      hover: "hover:bg-cyan-800/40",
+      bg: "from-slate-900 to-slate-800",
+      icon: "text-cyan-300"
+    }
+  },
+
+  blue: {
+    light: {
+      border: "border-blue-300",
+      hover: "hover:bg-blue-100/40",
+      bg: "from-blue-50 to-white",
+      icon: "text-blue-500"
+    },
+    dark: {
+      border: "border-blue-700/50",
+      hover: "hover:bg-blue-800/40",
+      bg: "from-slate-900 to-slate-800",
+      icon: "text-blue-300"
+    }
+  },
+
+  // ✅ NEW COLORS YOU ADDED
+  rose: {
+    light: {
+      border: "border-rose-300",
+      hover: "hover:bg-rose-100/40",
+      bg: "from-rose-50 to-white",
+      icon: "text-rose-500"
+    },
+    dark: {
+      border: "border-rose-700/50",
+      hover: "hover:bg-rose-800/40",
+      bg: "from-slate-900 to-slate-800",
+      icon: "text-rose-300"
+    }
+  },
+
+  yellow: {
+    light: {
+      border: "border-yellow-300",
+      hover: "hover:bg-yellow-100/40",
+      bg: "from-yellow-50 to-white",
+      icon: "text-yellow-500"
+    },
+    dark: {
+      border: "border-yellow-700/50",
+      hover: "hover:bg-yellow-800/40",
+      bg: "from-slate-900 to-slate-800",
+      icon: "text-yellow-300"
+    }
+  },
+
+  green: {
+    light: {
+      border: "border-green-300",
+      hover: "hover:bg-green-100/40",
+      bg: "from-green-50 to-white",
+      icon: "text-green-500"
+    },
+    dark: {
+      border: "border-green-700/50",
+      hover: "hover:bg-green-800/40",
+      bg: "from-slate-900 to-slate-800",
+      icon: "text-green-300"
+    }
+  }
   };
 
   useEffect(() => {
@@ -124,25 +257,48 @@ export default function Skills() {
 
       <div className="max-w-6xl w-full relative z-10">
         {/* Header */}
-        <div className={`text-center mb-12 transition-all duration-700 ${
-          isVisible ? 'animate-fade-in' : 'opacity-0 translate-y-8'
-        }`}>
-          <h2 className={`text-4xl md:text-5xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r ${
-            isDark 
-              ? 'from-sky-300 via-purple-300 to-pink-300' 
-              : 'from-indigo-600 via-purple-600 to-pink-600'
-          }`}>
-            {t('skills.title')}
-          </h2>
-          <div className={`w-24 h-1 bg-gradient-to-r rounded-full mx-auto ${
-            isDark 
-              ? 'from-sky-400 via-purple-400 to-pink-400' 
-              : 'from-indigo-500 via-purple-500 to-pink-500'
-          }`} />
-        </div>
+        {/* ===== HEADER ===== */}
+<div className={`text-center mb-12 transition-all duration-700 ${
+  isVisible ? 'animate-fade-in' : 'opacity-0 translate-y-8'
+}`}>
+
+  {/* Badge (comme Contact / Projects) */}
+  <div className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full backdrop-blur-sm border mb-4 transition-all duration-300 ${
+    isDark 
+      ? 'bg-purple-500/20 border-purple-400/50' 
+      : 'bg-purple-100/80 border-purple-300'
+  }`}>
+    <span className={`text-xs font-medium ${
+      isDark ? 'text-purple-200' : 'text-purple-700'
+    }`}>
+      My Expertise
+    </span>
+  </div>
+
+  {/* Titre Skills */}
+  <h2
+    className={`text-3xl md:text-4xl font-bold mb-3 bg-clip-text text-transparent bg-gradient-to-r ${
+      isDark 
+        ? 'from-sky-300 via-purple-300 to-pink-300' 
+        : 'from-indigo-600 via-purple-600 to-pink-600'
+    }`}
+  >
+    {t('skills.title')}
+  </h2>
+
+  {/* Trait de séparation */}
+  <div
+    className={`w-28 h-1 bg-gradient-to-r rounded-full mx-auto mb-6 ${
+      isDark
+        ? 'from-sky-400 via-purple-400 to-pink-400'
+        : 'from-indigo-500 via-purple-500 to-pink-500'
+    }`}
+  />
+</div>
+
 
         {/* Skills Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+<div className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5">
           {skillsData.map((skill, idx) => {
             const IconComponent = skill.icon;
             const colors = isDark ? colorMap[skill.color].dark : colorMap[skill.color].light;

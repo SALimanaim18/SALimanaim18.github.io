@@ -31,29 +31,22 @@ const mode = isDark ? "dark" : "light";
     color: 'pink'
   },
   {
-    category: t('skills.tools.title'),
-    leftItems: ['IntelliJ IDEA', 'Android Studio', 'Visual Studio', 'VS Code','Eclipse','PytCharm' ],
-    rightItems: ['Git', 'GitHub', 'GitLab'],
-    icon: Wrench,
-    color: 'cyan'
-  },
-  {
  category: t('Intelligence Artificielle'),
       leftItems: [
       'Machine Learning',
       'Deep Learning',
       'Data mining',
-      'TensorFlow',
-      'Keras',
-      'NumPy'
+      'RNN',
+      'ANN',
+      'CNN'
     
     ],
      rightItems:[  
-      'Pandas',
-      'Matplotlib',
-      'Jupyter Notebook',
-      'Google Colab',
-      'Scikit-learn'],
+      'AI Agents',
+      'RAG',
+      'Fine tunning',
+      'LangChain',
+      'N8N'],
     icon: Brain,
     color: 'rose'
   },
@@ -62,19 +55,25 @@ const mode = isDark ? "dark" : "light";
      leftItems:[
       'Docker / Docker Compose',
       'Kubernetes',
-      'Jenkins',
-      'GitLab CI/CD'
+      'Jenkins', 'SonarQube', 'CI/CD Pipelines'
     ],
-    rightItems:[ 'SonarQube',
+    rightItems:[  
       'Grafana',
       'Kibana',
-      'CI/CD Pipelines'],
+      'Git', 'GitHub', 'GitLab'],
     icon: ServerCog,
     color: 'yellow'
   },
+    {
+    category: t('skills.tools.title'),
+    items: ['Cloud ERP', 'CRM', 'Odoo', 'Sage','Twenty CRM','MRP / MRP II' ],
+    icon: Wrench,
+    color: 'cyan'
+  },
   {
     category: t('skills.modeling.title'),
-    items: ['UML', 'GanttProject', 'Jira', 'Agile (Scrum)', 'kaizen'],
+    leftItems: ['UML', 'Merise', 'Design Patterns', 'SOLID', 'Agile (Scrum, Kanban)', 'kaizen', ],
+    rightItems: ['GanttProject', 'Jira','TDD', 'Selenium', 'JUnit', 'pattern MVC', 'code review'],
     icon: Layout,
     color: 'blue'
   },

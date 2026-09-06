@@ -9,22 +9,22 @@ export default function About() {
   const [hoveredCard, setHoveredCard] = useState(null);
   const sectionRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
-
+  
   const quickFacts = [
     { 
-      label: 'Education', 
-      value: `${t('about.quickFacts.school')} - ${t('about.quickFacts.currentYear')}`,
+      label: t('about.quickFactsLabels.engineeringDegree'), 
+      value: t('about.quickFacts.engineeringDegree'),
       icon: GraduationCap,
       color: 'sky'
     },
     { 
-      label: 'Diploma', 
+      label: t('about.quickFactsLabels.diploma'), 
       value: t('about.quickFacts.diploma'),
       icon: Award,
       color: 'purple'
     },
     { 
-      label: 'Baccalaureate', 
+      label: t('about.quickFactsLabels.baccalaureate'), 
       value: t('about.quickFacts.baccalaureate'),
       icon: BookOpen,
       color: 'pink'
@@ -111,10 +111,13 @@ export default function About() {
 
               {/* Developer trace */}
               <div className="mt-6 space-y-2">
-                {['Full-Stack Development', 'UI/UX Design', 'Problem Solving'].map((skill, i) => (
-                  <div key={i} className={`flex items-center gap-3 group transition-colors duration-300 ${
-                    isDark ? 'text-slate-300' : 'text-gray-600'
-                  }`}>
+                {['Software Development', 'Artificial Intelligence', 'DevOps & Cloud'].map((skill, i) => (
+                  <div
+                    key={i}
+                    className={`flex items-center gap-3 group transition-colors duration-300 ${
+                      isDark ? 'text-slate-300' : 'text-gray-600'
+                    }`}
+                  >
                     <CheckCircle className={`w-4 h-4 transition-colors duration-300 ${
                       isDark 
                         ? 'text-sky-400 group-hover:text-pink-400' 

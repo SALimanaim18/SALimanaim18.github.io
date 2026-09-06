@@ -102,13 +102,17 @@
     ]
   },
   "about": {
+    "quickFactsLabels": {
+  "engineeringDegree": "Engineering Degree",
+  "diploma": "Full Stack Diploma",
+  "baccalaureate": "Baccalaureate"
+},
     "title": "About Me",
-    "description": "Currently in my 5th year of Computer Science and Network Engineering at EMSI Casablanca, and in the process of preparing my engineering degree, I am a motivated and detail-oriented engineer with hands-on experience building full-stack applications, designing relational databases, and solving complex problems. I am also currently developing my skills in AI and DevOps. I enjoy learning new technologies and working in teams. My goal is to contribute to impactful projects while continuously developing my technical and professional skills.",
+    "description": "I am an IT Engineer with a strong technical background in software development, artificial intelligence, and DevOps. I enjoy designing reliable and scalable solutions, solving complex technical problems, and turning ideas into practical and efficient applications. My experience spans full-stack development, backend engineering, relational databases, AI-powered solutions, and DevOps practices, allowing me to approach projects from both a development and systems perspective. Curious and adaptable, I continuously strengthen my technical expertise through hands-on projects and real-world experience, while keeping up with modern technologies and industry practices.",
     "quickFactsTitle": "Quick Facts",
     "quickFacts": {
-      "school": "EMSI Casablanca",
-      "currentYear": "5th year - Computer Science & Network Engineering",
-      "diploma": "Full Stack Development Diploma - ISGI Center (2021-2023)",
+      "engineeringDegree": "Computer Science & Network Engineering - EMSI School (2023–2026)",
+      "diploma": "Full Stack Development  - ISGI Center (2021–2023)",
       "baccalaureate": "Scientific Baccalaureate - Highest Honors (2021)"
     }
   },

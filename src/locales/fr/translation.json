@@ -102,13 +102,17 @@
     ]
   },
   "about": {
+    "quickFactsLabels": {
+  "engineeringDegree": "Diplôme d’ingénieur",
+  "diploma": "Diplôme Full Stack",
+  "baccalaureate": "Baccalauréat"
+},
     "title": "À propos de moi",
-    "description": "Actuellement en 5ᵉ année d'ingénierie Informatique et Réseaux à l'EMSI Casablanca, et en cours de la préparation de mon diplôme d'ingénieur, motivée et rigoureuse, avec une expérience pratique dans la conception d’applications full-stack, la conception de bases de données relationnelles et la résolution de problèmes complexes. Je suis également en cours de développement de mes compétences en IA et DevOps. J’aime apprendre de nouvelles technologies et travailler en équipe. Mon objectif est de contribuer à des projets à fort impact tout en développant continuellement mes compétences techniques et professionnelles.",
+    "description": "Je suis ingénieure IT avec un solide parcours technique dans le développement logiciel, l’intelligence artificielle et le DevOps. J’apprécie la conception de solutions fiables et évolutives, la résolution de problématiques techniques complexes et la transformation des idées en applications concrètes et performantes. Mon expérience couvre notamment le développement full-stack, l’ingénierie backend, les bases de données relationnelles, les solutions basées sur l’IA ainsi que les pratiques DevOps. Curieuse et adaptable, je continue à développer mon expertise à travers des projets pratiques et des expériences concrètes, tout en restant à l’écoute des technologies modernes et des bonnes pratiques du secteur.",    "quickFactsTitle": "En bref",
     "quickFacts": {
-      "school": "EMSI Casablanca",
-      "diploma": "Développeuse Full Stack Web, ISGI, 2023",
-      "baccalaureate": "Scientifique, Mention Très Bien, 2021",
-      "currentYear": "5ème année, Informatique et Réseaux"
+      "engineeringDegree": "Ingénierie Informatique et Réseaux - EMSI (2023–2026)",
+      "diploma": "Diplôme en Développement Full Stack - Centre ISGI (2021–2023)",
+      "baccalaureate": "Baccalauréat Scientifique - Mention Très Bien (2021)"
     }
   },
   "skills": {
